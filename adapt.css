@@ -1,0 +1,24 @@
+.main h1,
+.main h2,
+.main nav {
+	margin: 5px 35px;
+}
+@-webkit-keyframes social {
+	0% {background-color: rgba(255, 255, 255, 0);}
+	50% {background-color: rgba(255, 255, 255, 0.2);}
+	100% {background-color: rgba(255, 255, 255, 0);}
+}
+@keyframes social {
+	0% {background-color: rgba(255, 255, 255, 0);}
+	50% {background-color: rgba(255, 255, 255, 0.2);}
+	100% {background-color: rgba(255, 255, 255, 0);}
+}
+@media (max-width: 540px) {
+	.main h1 {font-size: 27px;}
+	.main h2 {font-size: 20px;}
+}
+@media (max-width: 440px) {
+	#a1, #a2, #a3, #a4 {-webkit-animation: none;animation: none;}
+	.main nav {margin-top: 15px; border: none; background-color: rgba(0, 0, 0, 0);}
+	.main nav a {padding: 10px 20px;}
+}
