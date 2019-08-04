@@ -2,6 +2,7 @@
 html {scroll-behavior: smooth;}
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #000;
 }
 
 /* ========== MAIN ========== */
@@ -130,6 +131,7 @@ body {
 
 /* ========== WORKS ========== */
 .works {
+	background-color: #000;
 	width: 100%;
 	height: 100vh;
 	display: -webkit-box;
